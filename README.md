@@ -55,14 +55,6 @@ To generate a random transformation:
 3. Estimate a transformation matrix based on the corner points
 
 
-<style>
-table th:first-of-type {
-    width: 50%;
-}
-table th:nth-of-type(2) {
-    width: 50%;
-}
-</style>
 |Original|Transformed|
 |---------|---------|
 |<figure align="center"><img src="images/convex_warp/warp_example_base.png" alt="photo not available" width="70%" height="70%"><figcaption> (a) </figcaption> </figure> | <figure align="center"><img src="images/convex_warp/proj_25.png" alt="photo not available" width="70%" height="70%"><figcaption> (b) </figcaption></figure>
