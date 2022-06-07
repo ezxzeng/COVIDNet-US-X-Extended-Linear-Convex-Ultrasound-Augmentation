@@ -1,0 +1,52 @@
+{
+    "model_params": {
+      "num_classes": 2,
+      "pretrained": false,
+      "grayscale": true
+    },
+    "model_paths": [
+        "runs/*/model.pth"
+    ],
+    "data_params": {
+      "image_directory": "data/data/image/clean",
+      "test_annotations_file": "labels/test_convex.txt",
+      "batch_size": 64,
+      "test_transforms": [
+        {
+            "name": "ToPILImage",
+            "params": {}
+        },
+        {
+            "name": "Grayscale",
+            "params": {}
+        },
+        {
+            "name": "Resize",
+            "params": {
+                "size": 224
+            }
+        },
+        {
+            "name": "CenterCrop",
+            "params": {
+                "size": 224
+            }
+        },
+        {
+            "name": "ToTensor",
+            "params": {}
+        },
+        {
+            "name": "Normalize",
+            "params": {
+                "mean": 0.185,
+                "std": 0.216
+            }
+        },
+        {
+            "name": "add_channels",
+            "params": {}
+        }
+      ]
+    }
+  }
