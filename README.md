@@ -4,11 +4,13 @@ This code is for the paper **COVID-Net US-X: Enhanced Deep Neural Network for De
 
 **Link to the [paper](https://arxiv.org/abs/2204.13851)**
 
-**COVID-Net Biochem is core part of COVID-Net, a global open source, open access initiative dedicated to accelerating advancement in machine learning to aid front-line healthcare workers and clinical institutions around the world fighting the continuing pandemic. Link to COVID-Net portal: [here](https://alexswong.github.io/COVID-Net/)**
+**COVID-Net US-X is core part of COVID-Net, a global open source, open access initiative dedicated to accelerating advancement in machine learning to aid front-line healthcare workers and clinical institutions around the world fighting the continuing pandemic. Link to COVID-Net portal: [here](https://alexswong.github.io/COVID-Net/)**
 
 **Recording to webinar on [How we built COVID-Net in 7 days with Gensynth](https://darwinai.news/fny)**
 
 **Note: The COVID-Net models provided here are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended as production-ready models (not meant for direct clinical diagnosis), and we are working continuously to improve them as new data becomes available. Please do not use COVID-Net for self-diagnosis and seek help from your local health authorities.**
+
+**Pretrained models can be downloaded here: https://drive.google.com/drive/folders/11K6jntAc-72Uq5IMfpFHExO0naqvxub2?usp=sharing. Note that this pretrained COVID-Net US-X v2 model possesses a new machine-designed architecture based on the latest COVIDx US benchmark dataset, which is substantially larger and more diverse than that used in the study.  As such, the final performance results here differ from that presented in the study**
 
 ## Abstract
 
